@@ -30,9 +30,9 @@ pip install -r requirements.txt
 
 ```bash
 cd dashboard
-npm install
+npm install --legacy-peer-deps
 # ou
-pnpm install
+pnpm install --legacy-peer-deps
 ```
 
 ## Uso
