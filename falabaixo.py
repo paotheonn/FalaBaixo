@@ -9,9 +9,9 @@ import requests
 from openpyxl import Workbook
 import os
 
-
-TELEGRAM_BOT_TOKEN = '7859815885:AAFApbaf95Lreb7NcAb-ZiEIPESr-Dd7_u8'
-TELEGRAM_CHAT_ID = '5573532628'
+# Configure suas credenciais do Telegram aqui
+TELEGRAM_BOT_TOKEN = 'SEU_TOKEN_AQUI'  # Substitua pelo seu token do bot
+TELEGRAM_CHAT_ID = 'SEU_CHAT_ID_AQUI'  # Substitua pelo seu chat ID
 
 
 wb = Workbook()

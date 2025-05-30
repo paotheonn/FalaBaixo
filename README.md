@@ -17,6 +17,18 @@ Um aplicativo para monitoramento de volume de áudio em tempo real, com dashboar
 - Node.js (para a dashboard)
 - Dependências Python (ver requirements.txt)
 - Dependências Node.js (ver package.json)
+- Bot do Telegram (para notificações)
+
+## Configuração
+
+### Telegram Bot
+
+1. Crie um bot no Telegram usando o [@BotFather](https://t.me/botfather)
+2. Copie o token do bot fornecido
+3. Obtenha seu Chat ID (você pode usar o [@userinfobot](https://t.me/userinfobot))
+4. Abra o arquivo `falabaixo.py` e substitua:
+   - `SEU_TOKEN_AQUI` pelo token do seu bot
+   - `SEU_CHAT_ID_AQUI` pelo seu chat ID
 
 ## Instalação
 
